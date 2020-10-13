@@ -3,24 +3,24 @@
 <plist version="1.0">
 <dict>
 	<key>author</key>
-	<string>Alex Pardoe</string>
+	<string>Christoph von Gellhorn</string>
 	<key>colorSpaceName</key>
 	<string>sRGB</string>
 	<key>name</key>
-	<string>One Dark (Bright)</string>
+	<string>One Dark Mode</string>
 	<key>semanticClass</key>
-	<string>theme.dark.onedark_bright</string>
+	<string>theme.dark.onedarkmode</string>
 	<key>settings</key>
 	<array>
 		<dict>
 			<key>settings</key>
 			<dict>
 				<key>background</key>
-				<string>#282C34</string>
+				<string>#1D2026</string>
 				<key>caret</key>
 				<string>#528BFF</string>
 				<key>foreground</key>
-				<string>#BFCAE0</string>
+				<string>#ABB2BF</string>
 				<key>invisibles</key>
 				<string>#747369</string>
 				<key>lineHighlight</key>
@@ -52,7 +52,7 @@
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
-				<string>#b8cae8ff</string>
+				<string>#ABB2BF</string>
 			</dict>
 		</dict>
 		<dict>
@@ -63,7 +63,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#FA6E7C</string>
+				<string>#E06C75</string>
 			</dict>
 		</dict>
 		<dict>
@@ -76,7 +76,7 @@
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
-				<string>#eeb164ff</string>
+				<string>#D19A66</string>
 			</dict>
 		</dict>
 		<dict>
@@ -89,7 +89,7 @@
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
-				<string>#eee280ff</string>
+				<string>#E5C07B</string>
 			</dict>
 		</dict>
 		<dict>
@@ -102,7 +102,7 @@
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
-				<string>#adee7aff</string>
+				<string>#98C379</string>
 			</dict>
 		</dict>
 		<dict>
@@ -113,7 +113,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#b8cae8ff</string>
+				<string>#ABB2BF</string>
 			</dict>
 		</dict>
 		<dict>
@@ -126,7 +126,7 @@
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
-				<string>#61cbeeff</string>
+				<string>#61AFEF</string>
 			</dict>
 		</dict>
 		<dict>
@@ -139,7 +139,7 @@
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
-				<string>#ec7beeff</string>
+				<string>#C678DD</string>
 			</dict>
 		</dict>
 		<dict>
@@ -150,11 +150,11 @@
 			<key>settings</key>
 			<dict>
 				<key>background</key>
-				<string>#ee7c80ff</string>
+				<string>#F2777A</string>
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
-				<string>#eeeeeeff</string>
+				<string>#FFFFFF</string>
 			</dict>
 		</dict>
 		<dict>
@@ -165,9 +165,9 @@
 			<key>settings</key>
 			<dict>
 				<key>background</key>
-				<string>#6b4f4fff</string>
+				<string>#515151</string>
 				<key>foreground</key>
-				<string>#b8cae8ff</string>
+				<string>#ABB2BF</string>
 			</dict>
 		</dict>
 		<dict>
@@ -178,11 +178,11 @@
 			<key>settings</key>
 			<dict>
 				<key>background</key>
-				<string>#ee864dff</string>
+				<string>#D27B53</string>
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
-				<string>#243043ff</string>
+				<string>#272B33</string>
 			</dict>
 		</dict>
 		<dict>
@@ -193,11 +193,11 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#4fe1eeff</string>
+				<string>#56B6C2</string>
 			</dict>
 		</dict>
 	</array>
 	<key>uuid</key>
-	<string>6386D468-E3DC-46EB-A212-F9170CD35231</string>
+	<string>9301F284-582B-49AF-9DB7-C041BEC84843</string>
 </dict>
 </plist>

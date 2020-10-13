@@ -1,5 +1,5 @@
-An inexect clone of Atom's 'One Dark' theme created for TextMate, includes a standard version based directly on the values from 'One Dark' and a bright version that's a little more punchy.
+Textastic One Dark Mode Theme
+===========
+> A minimal [Textastic](https://www.textasticapp.com) theme with a slightly darker feel, based on the [Atom One Dark color palette](https://github.com/atom/one-dark-syntax) forked from [Alex Pardoe's TextMate Theme](https://github.com/digitalpardoe/One-Dark.tmbundle)
 
-| Standard | Bright |
-| --- | --- |
-| <img src="http://files.pardoe.io/one_dark.png" /> | <img src="http://files.pardoe.io/one_dark_bright.png" /> |
+![screenshot](screenshot.png)
