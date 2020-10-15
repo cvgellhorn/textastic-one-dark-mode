@@ -55,11 +55,33 @@
 				<string>#ABB2BF</string>
 			</dict>
 		</dict>
+        <dict>
+			<key>name</key>
+			<string>Tags</string>
+			<key>scope</key>
+			<string>entity.name.tag</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#DF6A73</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Attributes</string>
+			<key>scope</key>
+			<string>entity.other.attribute-name</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#D2945D</string>
+			</dict>
+		</dict>
 		<dict>
 			<key>name</key>
 			<string>Variable, String Link, Regular Expression, Tag Name</string>
 			<key>scope</key>
-			<string>variable, support.other.variable, string.other.link, string.regexp, entity.name.tag, entity.other.attribute-name, meta.tag, declaration.tag</string>
+			<string>variable, support.other.variable, string.other.link, string.regexp, entity.name.tag, entity.other.attribute-name, declaration.tag</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
