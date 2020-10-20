@@ -16,7 +16,7 @@
 			<key>settings</key>
 			<dict>
 				<key>background</key>
-				<string>#1D2026</string>
+                <string>#282C34</string>
 				<key>caret</key>
 				<string>#528BFF</string>
 				<key>foreground</key>
@@ -77,11 +77,11 @@
 				<string>#D2945D</string>
 			</dict>
 		</dict>
-		<dict>
+        <dict>
 			<key>name</key>
 			<string>Variable, String Link, Regular Expression, Tag Name</string>
 			<key>scope</key>
-			<string>variable, support.other.variable, string.other.link, string.regexp, entity.name.tag, entity.other.attribute-name, declaration.tag</string>
+			<string>string.other.link, entity.name.tag, entity.other.attribute-name, declaration.tag</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -124,14 +124,14 @@
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
-				<string>#98C379</string>
+				<string>#90C378</string>
 			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
 			<string>Misc</string>
 			<key>scope</key>
-			<string> constant.other.color</string>
+			<string>constant.other.color</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -142,7 +142,7 @@
 			<key>name</key>
 			<string>Function, Special Method, Block Level</string>
 			<key>scope</key>
-			<string>entity.name.function, meta.function-call, support.function, keyword.other.special-method, meta.block-level</string>
+			<string>entity.name.function, keyword.other.special-method, meta.block-level</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
@@ -155,13 +155,81 @@
 			<key>name</key>
 			<string>Keyword, Storage</string>
 			<key>scope</key>
-			<string>keyword, storage, storage.type, entity.name.tag.css, keyword.operator</string>
+			<string>keyword, storage, storage.type, entity.name.tag.css</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
 				<string>#C678DD</string>
+			</dict>
+		</dict>
+        <dict>
+			<key>name</key>
+			<string>Object key</string>
+			<key>scope</key>
+			<string>meta.object-literal.key</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#DF6A73</string>
+			</dict>
+		</dict>
+        <dict>
+			<key>name</key>
+			<string>Language This</string>
+			<key>scope</key>
+			<string>variable.language.this</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string>#DF6A73</string>
+			</dict>
+		</dict>
+        <dict>
+			<key>name</key>
+			<string>Support</string>
+			<key>scope</key>
+			<string>support.function</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#57B6C2</string>
+			</dict>
+		</dict>     
+        <dict>
+			<key>name</key>
+			<string>Regular Expressions</string>
+			<key>scope</key>
+			<string>string.regexp</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#57B6C2</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Escape Characters</string>
+			<key>scope</key>
+			<string>constant.character.escape</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#57B6C2</string>
+			</dict>
+		</dict>
+        <dict>
+			<key>name</key>
+			<string>Operators and Punctuation</string>
+			<key>scope</key>
+			<string>keyword.operator, punctuation.separator.key-value</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#57B6C2</string>
 			</dict>
 		</dict>
 		<dict>
@@ -207,6 +275,52 @@
 				<string>#272B33</string>
 			</dict>
 		</dict>
+        <!-- JSON -->
+        <dict>
+			<key>name</key>
+			<string>Json key</string>
+			<key>scope</key>
+			<string>source.json                           meta.structure.dictionary.json                              string.quoted.double.json</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#DF6A73</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Json value</string>
+			<key>scope</key>
+			<string>source.json                       meta.structure.dictionary.json                           meta.structure.dictionary.value.json                       string.quoted.double.json</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#90C378</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>json sub key</string>
+			<key>scope</key>
+			<string>source.json                           meta.structure.dictionary.json                          meta.structure.dictionary.value.json                        meta.structure.dictionary.json                      string.quoted.double.json</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#DF6A73</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Json sub value</string>
+			<key>scope</key>
+			<string>source.json                       meta.structure.dictionary.json                        meta.structure.dictionary.value.json                       meta.structure.dictionary.json                          meta.structure.dictionary.value.json                            string.quoted.double.json</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#90C378</string>
+			</dict>
+		</dict>
+        <!-- JSON END -->
 		<dict>
 			<key>name</key>
 			<string>User Defined Constant</string>
